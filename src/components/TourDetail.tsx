@@ -90,9 +90,9 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
   };
 
   return (
-    <div style={{ minHeight: '100vh', background: '#14B8A6' }}>
+    <div style={{ minHeight: '100vh', background: '#0f766e' }}>
       {/* Header with Back Button */}
-      <div style={{ background: '#14B8A6', padding: '20px', position: 'relative' }}>
+      <div style={{ background: '#0f766e', padding: '20px', position: 'relative' }}>
         <button
           onClick={onBack}
           style={{
@@ -209,7 +209,7 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
         <div style={{ padding: '24px', borderBottom: '1px solid #E5E7EB', maxWidth: '800px', margin: '0 auto' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <div style={{ width: '48px', height: '48px', background: 'linear-gradient(135deg, #14B8A6 0%, #06B6D4 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: '600' }}>
+              <div style={{ width: '48px', height: '48px', background: 'linear-gradient(135deg, #0f766e 0%, #06B6D4 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: '600' }}>
                 {tour.guide.avatar}
               </div>
               <div>
@@ -224,7 +224,7 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
               </div>
             </div>
             <div style={{ textAlign: 'right' }}>
-              <div style={{ color: '#14B8A6', fontSize: '28px', fontWeight: '700' }}>${tour.price}</div>
+              <div style={{ color: '#0f766e', fontSize: '28px', fontWeight: '700' }}>${tour.price}</div>
               <div style={{ color: '#6B7280', fontSize: '13px' }}>/persona</div>
             </div>
           </div>
@@ -246,7 +246,7 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
           <h3 style={{ color: '#1F2937', marginBottom: '16px', fontSize: '16px', fontWeight: '600' }}>Info del Tour</h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-              <svg style={{ color: '#14B8A6', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+              <svg style={{ color: '#0f766e', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
               </svg>
               <div>
@@ -255,7 +255,7 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-              <svg style={{ color: '#14B8A6', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+              <svg style={{ color: '#0f766e', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M7 2a1 1 0 011 1v1h3a1 1 0 110 2H9.578a18.87 18.87 0 01-1.724 4.78c.29.354.596.696.914 1.026a1 1 0 11-1.44 1.389c-.188-.196-.373-.396-.554-.6a19.098 19.098 0 01-3.107 3.567 1 1 0 01-1.334-1.49 17.087 17.087 0 003.13-3.733 18.992 18.992 0 01-1.487-2.494 1 1 0 111.79-.89c.234.47.489.928.764 1.372.417-.934.752-1.913.997-2.927H3a1 1 0 110-2h3V3a1 1 0 011-1zm6 6a1 1 0 01.894.553l2.991 5.982a.869.869 0 01.02.037l.99 1.98a1 1 0 11-1.79.895L15.383 16h-4.764l-.724 1.447a1 1 0 11-1.788-.894l.99-1.98.019-.038 2.99-5.982A1 1 0 0113 8zm-1.382 6h2.764L13 11.236 11.618 14z" clipRule="evenodd" />
               </svg>
               <div>
@@ -264,7 +264,7 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-              <svg style={{ color: '#14B8A6', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+              <svg style={{ color: '#0f766e', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
               </svg>
               <div>
@@ -273,7 +273,7 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-              <svg style={{ color: '#14B8A6', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+              <svg style={{ color: '#0f766e', flexShrink: 0 }} width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
               </svg>
               <div>
@@ -291,7 +291,7 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
             {tour.userReviews.map((review: any) => (
               <div key={review.id} style={{ padding: '16px', background: '#F9FAFB', borderRadius: '12px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '12px' }}>
-                  <div style={{ width: '40px', height: '40px', background: 'linear-gradient(135deg, #14B8A6 0%, #06B6D4 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '14px', fontWeight: '600', flexShrink: 0 }}>
+                  <div style={{ width: '40px', height: '40px', background: 'linear-gradient(135deg, #0f766e 0%, #06B6D4 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '14px', fontWeight: '600', flexShrink: 0 }}>
                     {review.avatar}
                   </div>
                   <div style={{ flex: 1 }}>
@@ -322,14 +322,14 @@ export function TourDetail({ tourId, onBack, onBooking }: TourDetailProps) {
             style={{
               width: '100%',
               padding: '14px 24px',
-              background: '#14B8A6',
+              background: '#0f766e',
               color: 'white',
               border: 'none',
               borderRadius: '10px',
               fontSize: '16px',
               fontWeight: '600',
               cursor: 'pointer',
-              boxShadow: '0 2px 8px rgba(20,184,166,0.3)'
+              boxShadow: '0 2px 8px rgba(15,118,110,0.3)'
             }}
           >
             Reservar ahora

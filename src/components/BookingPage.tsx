@@ -62,7 +62,7 @@ export function BookingPage({ tourId, onBack, onConfirm }: BookingPageProps) {
     <div style={{ minHeight: '100vh', backgroundColor: '#E0F2F1', paddingBottom: '100px' }}>
       {/* Header */}
       <div style={{
-        backgroundColor: '#14B8A6',
+        backgroundColor: '#0f766e',
         padding: '16px',
         display: 'flex',
         alignItems: 'center',
@@ -103,8 +103,8 @@ export function BookingPage({ tourId, onBack, onConfirm }: BookingPageProps) {
                 style={{
                   aspectRatio: '1',
                   borderRadius: '8px',
-                  border: selectedDate === day.fullDate ? '2px solid #14B8A6' : '1px solid #E5E7EB',
-                  backgroundColor: selectedDate === day.fullDate ? '#14B8A6' : 'white',
+                  border: selectedDate === day.fullDate ? '2px solid #0f766e' : '1px solid #E5E7EB',
+                  backgroundColor: selectedDate === day.fullDate ? '#0f766e' : 'white',
                   color: selectedDate === day.fullDate ? 'white' : '#374151',
                   display: 'flex',
                   flexDirection: 'column',
@@ -198,7 +198,7 @@ export function BookingPage({ tourId, onBack, onConfirm }: BookingPageProps) {
                 style={{
                   padding: '20px',
                   borderRadius: '12px',
-                  border: selectedPayment === method.id ? '2px solid #14B8A6' : '1px solid #E5E7EB',
+                  border: selectedPayment === method.id ? '2px solid #0f766e' : '1px solid #E5E7EB',
                   backgroundColor: 'white',
                   display: 'flex',
                   flexDirection: 'column',
@@ -221,7 +221,7 @@ export function BookingPage({ tourId, onBack, onConfirm }: BookingPageProps) {
                 width: '100%',
                 padding: '20px',
                 borderRadius: '12px',
-                border: selectedPayment === 'paypal' ? '2px solid #14B8A6' : '1px solid #E5E7EB',
+                border: selectedPayment === 'paypal' ? '2px solid #0f766e' : '1px solid #E5E7EB',
                 backgroundColor: 'white',
                 display: 'flex',
                 flexDirection: 'column',
@@ -282,7 +282,7 @@ export function BookingPage({ tourId, onBack, onConfirm }: BookingPageProps) {
               alignItems: 'center'
             }}>
               <span style={{ color: '#065F46', fontSize: '15px', fontWeight: '600' }}>Costo total</span>
-              <span style={{ color: '#14B8A6', fontSize: '24px', fontWeight: '700' }}>${tour.price}</span>
+              <span style={{ color: '#0f766e', fontSize: '24px', fontWeight: '700' }}>${tour.price}</span>
             </div>
           </div>
         </div>
@@ -305,7 +305,7 @@ export function BookingPage({ tourId, onBack, onConfirm }: BookingPageProps) {
             style={{
               width: '100%',
               padding: '14px',
-              backgroundColor: '#14B8A6',
+              backgroundColor: '#0f766e',
               color: 'white',
               border: 'none',
               borderRadius: '10px',

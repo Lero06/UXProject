@@ -164,8 +164,8 @@ export function TouristRegister({ onBack, onSuccess }: TouristRegisterProps) {
                     style={{
                       padding: '12px 16px',
                       borderRadius: '10px',
-                      border: formData.interests.includes(interest) ? '2px solid #14B8A6' : '2px solid #D1D5DB',
-                      background: formData.interests.includes(interest) ? '#14B8A6' : 'white',
+                      border: formData.interests.includes(interest) ? '2px solid #0f766e' : '2px solid #D1D5DB',
+                      background: formData.interests.includes(interest) ? '#0f766e' : 'white',
                       color: formData.interests.includes(interest) ? 'white' : '#374151',
                       fontSize: '14px',
                       cursor: 'pointer',

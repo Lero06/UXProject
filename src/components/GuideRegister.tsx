@@ -101,7 +101,7 @@ export function GuideRegister({ onBack, onSuccess }: GuideRegisterProps) {
           <div className="pg-login-card">
             <label style={{ display: 'block', color: '#374151', marginBottom: '16px', textAlign: 'center', fontSize: '16px', fontWeight: '600' }}>Foto de Perfil</label>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px' }}>
-              <div style={{ width: '120px', height: '120px', background: 'linear-gradient(135deg, #A5F3FC 0%, #14B8A6 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '4px solid white', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
+              <div style={{ width: '120px', height: '120px', background: 'linear-gradient(135deg, #A5F3FC 0%, #0f766e 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '4px solid white', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
                 {formData.profileImage ? (
                   <img
                     src={URL.createObjectURL(formData.profileImage)}
@@ -251,8 +251,8 @@ export function GuideRegister({ onBack, onSuccess }: GuideRegisterProps) {
                   style={{
                     padding: '12px 16px',
                     borderRadius: '10px',
-                    border: formData.selectedLocations.includes(location) ? '2px solid #14B8A6' : '2px solid #D1D5DB',
-                    background: formData.selectedLocations.includes(location) ? '#14B8A6' : 'white',
+                    border: formData.selectedLocations.includes(location) ? '2px solid #0f766e' : '2px solid #D1D5DB',
+                    background: formData.selectedLocations.includes(location) ? '#0f766e' : 'white',
                     color: formData.selectedLocations.includes(location) ? 'white' : '#374151',
                     fontSize: '14px',
                     cursor: 'pointer',
@@ -343,7 +343,7 @@ export function GuideRegister({ onBack, onSuccess }: GuideRegisterProps) {
               className="pg-login-primary"
               style={{ flex: 1, background: 'linear-gradient(135deg, #0891B2 0%, #06B6D4 100%)' }}
             >
-              Registrar
+              Solicitar Registro
             </button>
           </div>
         </form>

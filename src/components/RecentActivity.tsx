@@ -101,7 +101,7 @@ export function RecentActivity({ onBack }: RecentActivityProps) {
     <div style={{ minHeight: '100vh', backgroundColor: '#E0F2F1' }}>
       {/* Header */}
       <div style={{
-        backgroundColor: '#14B8A6',
+        backgroundColor: '#0f766e',
         padding: '16px',
         display: 'flex',
         alignItems: 'center',
@@ -127,7 +127,7 @@ export function RecentActivity({ onBack }: RecentActivityProps) {
         <div style={{ display: 'flex', gap: '8px', marginBottom: '16px', overflowX: 'auto', paddingBottom: '8px' }}>
           <button style={{
             padding: '10px 20px',
-            backgroundColor: '#14B8A6',
+            backgroundColor: '#0f766e',
             color: 'white',
             border: 'none',
             borderRadius: '8px',
@@ -213,7 +213,7 @@ export function RecentActivity({ onBack }: RecentActivityProps) {
                              activity.color === 'amber' ? '#D97706' :
                              activity.color === 'cyan' ? '#0891B2' :
                              activity.color === 'purple' ? '#9333EA' :
-                             '#14B8A6'
+                             '#0f766e'
                     }}>
                       {activity.icon}
                     </div>

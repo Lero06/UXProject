@@ -18,7 +18,7 @@ export function Settings({ onBack }: SettingsProps) {
     <div style={{ minHeight: '100vh', backgroundColor: '#E0F2F1' }}>
       {/* Header */}
       <div style={{
-        backgroundColor: '#14B8A6',
+        backgroundColor: '#0f766e',
         padding: '16px',
         display: 'flex',
         alignItems: 'center',
@@ -39,7 +39,7 @@ export function Settings({ onBack }: SettingsProps) {
       <div style={{ maxWidth: '600px', margin: '0 auto', padding: '16px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
         {/* Account Settings */}
         <section style={{ backgroundColor: 'white', borderRadius: '12px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
-          <div style={{ backgroundColor: '#14B8A6', padding: '12px 16px' }}>
+          <div style={{ backgroundColor: '#0f766e', padding: '12px 16px' }}>
             <h2 style={{ color: 'white', fontSize: '16px', fontWeight: '600', margin: 0 }}>Cuenta</h2>
           </div>
           <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -56,7 +56,7 @@ export function Settings({ onBack }: SettingsProps) {
               transition: 'all 0.2s'
             }}>
               <span style={{ color: '#1F2937', fontSize: '15px' }}>Editar Perfil</span>
-              <div style={{ backgroundColor: '#14B8A6', borderRadius: '8px', padding: '8px', display: 'flex' }}>
+              <div style={{ backgroundColor: '#0f766e', borderRadius: '8px', padding: '8px', display: 'flex' }}>
                 <svg style={{ width: '20px', height: '20px', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
@@ -75,7 +75,7 @@ export function Settings({ onBack }: SettingsProps) {
               transition: 'all 0.2s'
             }}>
               <span style={{ color: '#1F2937', fontSize: '15px' }}>Cambiar Contraseña</span>
-              <div style={{ backgroundColor: '#14B8A6', borderRadius: '8px', padding: '8px', display: 'flex' }}>
+              <div style={{ backgroundColor: '#0f766e', borderRadius: '8px', padding: '8px', display: 'flex' }}>
                 <svg style={{ width: '20px', height: '20px', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1721 9z" />
                 </svg>
@@ -86,7 +86,7 @@ export function Settings({ onBack }: SettingsProps) {
 
         {/* Notifications */}
         <section style={{ backgroundColor: 'white', borderRadius: '12px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
-          <div style={{ backgroundColor: '#14B8A6', padding: '12px 16px' }}>
+          <div style={{ backgroundColor: '#0f766e', padding: '12px 16px' }}>
             <h2 style={{ color: 'white', fontSize: '16px', fontWeight: '600', margin: 0 }}>Notificaciones</h2>
           </div>
           <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -101,7 +101,7 @@ export function Settings({ onBack }: SettingsProps) {
                   width: '56px',
                   height: '32px',
                   borderRadius: '16px',
-                  backgroundColor: notifications.email ? '#14B8A6' : '#D1D5DB',
+                  backgroundColor: notifications.email ? '#0f766e' : '#D1D5DB',
                   position: 'relative',
                   border: 'none',
                   cursor: 'pointer',
@@ -134,7 +134,7 @@ export function Settings({ onBack }: SettingsProps) {
                   width: '56px',
                   height: '32px',
                   borderRadius: '16px',
-                  backgroundColor: notifications.push ? '#14B8A6' : '#D1D5DB',
+                  backgroundColor: notifications.push ? '#0f766e' : '#D1D5DB',
                   position: 'relative',
                   border: 'none',
                   cursor: 'pointer',
@@ -167,7 +167,7 @@ export function Settings({ onBack }: SettingsProps) {
                   width: '56px',
                   height: '32px',
                   borderRadius: '16px',
-                  backgroundColor: notifications.offers ? '#14B8A6' : '#D1D5DB',
+                  backgroundColor: notifications.offers ? '#0f766e' : '#D1D5DB',
                   position: 'relative',
                   border: 'none',
                   cursor: 'pointer',
@@ -194,7 +194,7 @@ export function Settings({ onBack }: SettingsProps) {
 
         {/* Preferences */}
         <section style={{ backgroundColor: 'white', borderRadius: '12px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
-          <div style={{ backgroundColor: '#14B8A6', padding: '12px 16px' }}>
+          <div style={{ backgroundColor: '#0f766e', padding: '12px 16px' }}>
             <h2 style={{ color: 'white', fontSize: '16px', fontWeight: '600' }}>Preferencias</h2>
           </div>
           <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -228,7 +228,7 @@ export function Settings({ onBack }: SettingsProps) {
 
         {/* Privacy & Security */}
         <section style={{ backgroundColor: 'white', borderRadius: '12px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
-          <div style={{ backgroundColor: '#14B8A6', padding: '12px 16px' }}>
+          <div style={{ backgroundColor: '#0f766e', padding: '12px 16px' }}>
             <h2 style={{ color: 'white', fontSize: '16px', fontWeight: '600' }}>Privacidad y Seguridad</h2>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>

@@ -91,7 +91,7 @@ export function Profile({ onNavigate }: ProfileProps) {
   return (
     <div className="pg-page">
       {/* Header */}
-      <header className="pg-header" style={{ background: 'linear-gradient(90deg,#0f766e,#06b6d4)' }}>
+      <header className="pg-header" style={{ background: '#0f766e' }}>
         <div className="pg-container">
           <h1 className="pg-section-title" style={{ color: '#fff' }}>Perfil</h1>
         </div>
@@ -101,7 +101,7 @@ export function Profile({ onNavigate }: ProfileProps) {
         {/* User Card placed outside header */}
         <div style={{ background: '#fff', borderRadius: 14, padding: 14, marginTop: 12, marginBottom: 20, maxWidth: 560, marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 8px 30px rgba(2,6,23,0.06)' }}>
           <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-            <div className="pg-avatar-circle" style={{ width: 64, height: 64, fontSize: 20, background: 'linear-gradient(135deg,var(--pg-teal),#06b6d4)', color: '#fff' }}>{user.name.charAt(0)}</div>
+            <div className="pg-avatar-circle" style={{ width: 64, height: 64, fontSize: 20, background: 'linear-gradient(135deg,#0f766e,#06b6d4)', color: '#fff' }}>{user.name.charAt(0)}</div>
             <div style={{ flex: 1 }}>
               <h2 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>{user.name}</h2>
               <p style={{ color: '#6b7280', margin: '6px 0 0 0' }}>{user.email}</p>

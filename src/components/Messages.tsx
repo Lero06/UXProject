@@ -61,7 +61,7 @@ export function Messages() {
     return (
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
           {/* Chat Header */}
-          <header style={{ background: '#14B8A6', padding: '16px 20px', color: 'white' }}>
+          <header style={{ background: '#0f766e', padding: '16px 20px', color: 'white' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', maxWidth: '800px', margin: '0 auto' }}>
               <button
                 onClick={() => setSelectedConversation(null)}
@@ -81,11 +81,11 @@ export function Messages() {
               </button>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flex: 1 }}>
                 <div style={{ position: 'relative' }}>
-                  <div style={{ width: '48px', height: '48px', background: 'rgba(255,255,255,0.2)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '16px', fontWeight: '600' }}>
+                  <div style={{ width: '48px', height: '48px', background: 'rgba(255,255,255,0.15)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '16px', fontWeight: '600' }}>
                     {conversation?.avatar}
                   </div>
                   {conversation?.online && (
-                    <div style={{ position: 'absolute', bottom: 0, right: 0, width: '12px', height: '12px', background: '#10B981', border: '2px solid #14B8A6', borderRadius: '50%' }}></div>
+                    <div style={{ position: 'absolute', bottom: 0, right: 0, width: '12px', height: '12px', background: '#10B981', border: '2px solid #0f766e', borderRadius: '50%' }}></div>
                   )}
                 </div>
                 <div>
@@ -105,7 +105,7 @@ export function Messages() {
             
             {/* Received message */}
             <div style={{ display: 'flex', gap: '8px', alignItems: 'flex-start' }}>
-              <div style={{ width: '32px', height: '32px', background: '#14B8A6', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '13px', flexShrink: 0 }}>
+              <div style={{ width: '32px', height: '32px', background: '#0f766e', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '13px', flexShrink: 0 }}>
                 {conversation?.avatar}
               </div>
               <div style={{ flex: 1, maxWidth: '70%' }}>
@@ -121,7 +121,7 @@ export function Messages() {
             {/* Sent message */}
             <div style={{ display: 'flex', gap: '8px', justifyContent: 'flex-end' }}>
               <div style={{ maxWidth: '70%' }}>
-                <div style={{ background: '#14B8A6', color: 'white', borderRadius: '16px', borderTopRightRadius: '4px', padding: '12px 16px', boxShadow: '0 1px 2px rgba(0,0,0,0.05)' }}>
+                <div style={{ background: '#0f766e', color: 'white', borderRadius: '16px', borderTopRightRadius: '4px', padding: '12px 16px', boxShadow: '0 1px 2px rgba(0,0,0,0.05)' }}>
                   <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.5' }}>¡Claro! ¿En qué te puedo ayudar?</p>
                 </div>
                 <p style={{ margin: '4px 12px 0 0', fontSize: '11px', color: '#6B7280', textAlign: 'right' }}>10:31 AM</p>
@@ -130,7 +130,7 @@ export function Messages() {
 
             {/* Received message */}
             <div style={{ display: 'flex', gap: '8px', alignItems: 'flex-start' }}>
-              <div style={{ width: '32px', height: '32px', background: '#14B8A6', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '13px', flexShrink: 0 }}>
+              <div style={{ width: '32px', height: '32px', background: '#0f766e', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '13px', flexShrink: 0 }}>
                 {conversation?.avatar}
               </div>
               <div style={{ flex: 1, maxWidth: '70%' }}>
@@ -146,7 +146,7 @@ export function Messages() {
         {/* Message Input */}
         <div style={{ background: 'white', borderTop: '1px solid #E5E7EB', padding: '12px 16px', paddingBottom: '100px' }}>
           <div style={{ display: 'flex', gap: '8px', alignItems: 'center', maxWidth: '800px', margin: '0 auto' }}>
-            <button style={{ padding: '8px', color: '#14B8A6', background: 'transparent', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
+            <button style={{ padding: '8px', color: '#0f766e', background: 'transparent', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
               <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
               </svg>
@@ -163,7 +163,7 @@ export function Messages() {
                 fontSize: '14px'
               }}
             />
-            <button style={{ padding: '8px', background: '#14B8A6', color: 'white', border: 'none', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', width: '40px', height: '40px', justifyContent: 'center' }}>
+            <button style={{ padding: '8px', background: '#0f766e', color: 'white', border: 'none', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', width: '40px', height: '40px', justifyContent: 'center' }}>
               <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
               </svg>

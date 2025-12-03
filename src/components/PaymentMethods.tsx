@@ -41,7 +41,7 @@ export function PaymentMethods({ onBack }: PaymentMethodsProps) {
 
   return (
     <div style={{ minHeight: '100vh', background: '#E0F2F1' }}>
-      <header style={{ background: '#14B8A6', padding: '16px 20px', color: 'white' }}>
+      <header style={{ background: '#0f766e', padding: '16px 20px', color: 'white' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', maxWidth: '600px', margin: '0 auto' }}>
           <button
             onClick={onBack}
@@ -105,7 +105,7 @@ export function PaymentMethods({ onBack }: PaymentMethodsProps) {
             onClick={() => setShowAddCard(true)}
             style={{
               width: '100%',
-              background: '#14B8A6',
+              background: '#0f766e',
               color: 'white',
               padding: '14px 24px',
               borderRadius: '10px',
@@ -117,7 +117,7 @@ export function PaymentMethods({ onBack }: PaymentMethodsProps) {
               gap: '8px',
               fontSize: '15px',
               fontWeight: '600',
-              boxShadow: '0 2px 8px rgba(20,184,166,0.3)'
+              boxShadow: '0 2px 8px rgba(15,118,110,0.3)'
             }}
           >
             <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -189,14 +189,14 @@ export function PaymentMethods({ onBack }: PaymentMethodsProps) {
         )}
 
         {/* Info */}
-        <div style={{ marginTop: '24px', background: '#E0F2F1', border: '1px solid #99F6E4', borderRadius: '10px', padding: '16px' }}>
+          <div style={{ marginTop: '24px', background: '#E0F2F1', border: '1px solid #99F6E4', borderRadius: '10px', padding: '16px' }}>
           <div style={{ display: 'flex', gap: '12px' }}>
-            <svg style={{ width: '20px', height: '20px', color: '#14B8A6', flexShrink: 0, marginTop: '2px' }} fill="currentColor" viewBox="0 0 20 20">
+            <svg style={{ width: '20px', height: '20px', color: '#0f766e', flexShrink: 0, marginTop: '2px' }} fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
             </svg>
             <div>
-              <p style={{ margin: 0, color: '#047857', fontSize: '14px', fontWeight: '600', marginBottom: '4px' }}>Seguridad de Pago</p>
-              <p style={{ margin: 0, color: '#059669', fontSize: '13px', lineHeight: '1.4' }}>
+              <p style={{ margin: 0, color: '#065f46', fontSize: '14px', fontWeight: '600', marginBottom: '4px' }}>Seguridad de Pago</p>
+              <p style={{ margin: 0, color: '#047857', fontSize: '13px', lineHeight: '1.4' }}>
                 Tus datos están protegidos con encriptación de nivel bancario. No almacenamos tu CVV.
               </p>
             </div>

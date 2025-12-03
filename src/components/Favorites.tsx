@@ -36,7 +36,7 @@ export function Favorites({ onBack, onTourSelect }: FavoritesProps) {
 
   return (
     <div style={{ minHeight: '100vh', background: '#E0F2F1' }}>
-      <header style={{ background: '#14B8A6', padding: '16px 20px', color: 'white' }}>
+      <header style={{ background: '#0f766e', padding: '16px 20px', color: 'white' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', maxWidth: '600px', margin: '0 auto' }}>
           <button
             onClick={onBack}
@@ -87,7 +87,7 @@ export function Favorites({ onBack, onTourSelect }: FavoritesProps) {
                     <div style={{ flex: 1 }}>
                       <h3 style={{ margin: '0 0 4px 0', color: '#1F2937', fontSize: '16px', fontWeight: '600' }}>{tour.title}</h3>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#6B7280', fontSize: '13px', marginBottom: '8px' }}>
-                        <svg style={{ width: '16px', height: '16px', color: '#14B8A6' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg style={{ width: '16px', height: '16px', color: '#0f766e' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
@@ -103,7 +103,7 @@ export function Favorites({ onBack, onTourSelect }: FavoritesProps) {
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '12px', borderTop: '1px solid #E5E7EB', marginTop: '8px' }}>
                     <div>
-                      <span style={{ color: '#14B8A6', fontSize: '20px', fontWeight: '700' }}>${tour.price}</span>
+                      <span style={{ color: '#0f766e', fontSize: '20px', fontWeight: '700' }}>${tour.price}</span>
                       <span style={{ color: '#6B7280', fontSize: '13px' }}> /persona</span>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -112,7 +112,7 @@ export function Favorites({ onBack, onTourSelect }: FavoritesProps) {
                         onClick={() => onTourSelect && onTourSelect(tour.id)}
                         style={{
                           padding: '8px 16px',
-                          background: '#14B8A6',
+                          background: '#0f766e',
                           color: 'white',
                           border: 'none',
                           borderRadius: '8px',
